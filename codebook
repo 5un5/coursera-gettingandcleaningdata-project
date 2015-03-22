@@ -1,0 +1,71 @@
+Data for this Project comes from 
+Human Activity Recognition Using Smartphones Dataset, Version 1.0
+Created by: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+It was downloaded for this project from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+For more information about this dataset contact: activityrecognition@smartlab.ws, or see 'features_info.txt' within the data from 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip or go to
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+==================================================================
+The experiments were carried out on 30 volunteers, ages 19-48 years. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+wearing a smartphone on their waist. They captured linear acceleration (XYZ) and angular velocity (XYZ) at 50Hz. 
+They randomly partitioned the data into two sets, 70% training data and 30%  for testing.
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and sampled. 
+The sensor acceleration signal, which has gravitational and body motion components.
+
+Features are normalized and bounded within [-1,1], so there are no units.
+Each feature vector is a row.
+For each record there is:
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- An activity label. 
+
+From: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+
+The output file for the project is a table with dimensions 6 x 66.
+The 6 rows are for the activity types: WALKING,  WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.
+The 66 columns hold the means and standard deviations for these 33 parameters:
+tBodyAcc-XYZ      *   1, 2, 3
+tGravityAcc-XYZ   *   4, 5, 6
+tBodyAccJerk-XYZ  *   7, 8, 9
+tBodyGyro-XYZ     *   10, 11, 12
+tBodyGyroJerk-XYZ *   13, 14, 15
+tBodyAccMag           16
+tGravityAccMag        17
+tBodyAccJerkMag       18
+tBodyGyroMag          19
+tBodyGyroJerkMag      20
+fBodyAcc-XYZ      *   21, 22, 23
+fBodyAccJerk-XYZ  *   24, 25, 26
+fBodyGyro-XYZ     *   27, 28, 29
+fBodyAccMag           30
+fBodyAccJerkMag       31
+fBodyGyroMag          32
+fBodyGyroJerkMag      33
+
+* "XYZ" indicates that parameters for each of the 3 directions: X, Y, and Z.
+
+For more information about this dataset contact: activityrecognition@smartlab.ws, or see 'features_info.txt' within the data from 
+
+Dataset use License:
+========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
